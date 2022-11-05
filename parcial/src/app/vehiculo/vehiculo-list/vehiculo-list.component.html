@@ -1,4 +1,4 @@
-<div>
+<div class="datos">
 <table class="table table-striped table-hover table-bordered">
   <thead>
     <tr class="table-dark">
@@ -18,3 +18,14 @@
   </tbody>
 </table>
 </div>
+<div class="marcas">
+<span *ngFor="let marca of marcas">
+  <h6>Total {{marca}}: </h6>
+</span>
+</div>
+<div class="totales">
+  <span *ngFor="let total of totales">
+    <h6>{{total}}</h6>
+  </span>
+</div>
+

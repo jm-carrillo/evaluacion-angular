@@ -1,3 +1,15 @@
-div{
-  padding: 20px;
+.datos{
+  padding: 10px;
+}
+
+.totales{
+  display: inline-block;
+  margin: 2px;
+  text-align: left;
+}
+
+.marcas{
+  display: inline-block;
+  margin: 2px;
+  text-align: right;
 }
